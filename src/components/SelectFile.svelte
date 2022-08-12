@@ -27,7 +27,7 @@
 
 <input type="file" name="sound" id="{id}-sound" on:change={inputChange} />
 
-<style>
+<style lang="scss">
 	input[type='file'] {
 		display: none;
 	}
@@ -36,5 +36,11 @@
 		width: 100%;
 		height: 100%;
 		border: 0;
+		background-color: #444;
+		color: #fff;
+		border-radius: 3px;
+		&:hover {
+			background-color: #000;
+		}
 	}
 </style>

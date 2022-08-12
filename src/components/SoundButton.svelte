@@ -33,35 +33,32 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		border: 1px solid #000;
-		background-color: #fff;
+		padding: 3px;
 		.play {
-			border-bottom: 1px solid #000;
 			width: 100%;
-			height: 70%;
+			height: 80%;
 			display: flex;
 			align-items: center;
 			justify-content: center;
 			text-align: center;
 			word-break: break-all;
+			background-color: #efefef;
+			border-radius: 3px;
 			&:hover {
 				background-color: #efefef;
+				cursor: pointer;
 			}
 			&:active {
 				background-color: #bebebe;
 			}
 		}
 		.update {
-			height: 30%;
+			height: 20%;
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			background-color: #444;
-			color: #fff;
 			width: 100%;
-			&:hover {
-				background-color: #000;
-			}
+			margin-top: 3px;
 		}
 	}
 </style>
